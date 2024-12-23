@@ -139,6 +139,7 @@ body {
 @media (max-width: 1100px) {
   .main-container {
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: initial;
     grid-template-areas:
       "daniel daniel"
       "kira  patrick"
